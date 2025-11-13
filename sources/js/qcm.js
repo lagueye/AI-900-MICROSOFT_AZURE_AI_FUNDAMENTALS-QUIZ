@@ -206,7 +206,7 @@ function listIncorrectAnswers(){
 	$('#incorrectAnswersList').attr('data-content',incorrectHtml);
 }
 
-/** cookies */
+/** cookies **/
 function setCookie(name, value, days) {
   let expires = "";
   if (days) {
@@ -216,6 +216,7 @@ function setCookie(name, value, days) {
   }
   document.cookie = name + "=" + (value || "") + expires + "; path=/";
 }
+
 function getCookie(name) {
   const nameEQ = name + "=";
   const ca = document.cookie.split(';');
@@ -226,6 +227,7 @@ function getCookie(name) {
   }
   return null;
 }
+
 function deleteCookie(name) {
   document.cookie = name + '=; Max-Age=-99999999;';
 }
