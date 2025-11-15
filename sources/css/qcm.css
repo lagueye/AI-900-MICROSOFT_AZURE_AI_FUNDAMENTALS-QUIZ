@@ -124,3 +124,8 @@ div.statistiqueDetail {
 .popover-body a, .sticky a {
 	text-decoration:none;
 }
+
+/** credit **/
+#githubForm, #githubData {
+	padding: 50px;
+}
